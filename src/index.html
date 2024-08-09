@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Frutaria</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lista de Frutas</h1>
+        <div class="container-primario">
+            <input id="campoFruta" type="text" placeholder="Digite o nome da fruta para cadastro">
+        </div>
+        <div class="container-secundario">
+            <input id="campoBuscar" type="text" placeholder="Digite o nome da fruta para busca síncrona">
+        </div>
+        <div class="container-secundario">
+            <input id="campoBuscaAssincrona" type="text" placeholder="Digite o nome da fruta para busca assíncrona">
+        </div>
+        <div class="container-botoes">
+            <button id="botaoAdicionar">Adicionar</button>
+            <button id="botaoOrdenar">Ordenar</button>
+            <button id="botaoFiltrar">Filtrar</button>
+        </div>
+        <div class="container-lista">
+            <ul id="listaFrutas"></ul>
+        </div>
+    </div>
+    <script src='./main.js'></script>
+</body>
+
+</html>
